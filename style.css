@@ -1,0 +1,29 @@
+
+
+body {
+	position: fixed;
+	text-align: center;
+	margin: 0;
+	padding-left: 500px;
+	vertical-align: middle;
+	background-color: yellowgreen;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	align: center;
+}
+table {
+	border: 5;
+	cellspacing: 20;
+	align: center;
+	padding: 50px;
+	width: 800px;
+	font-size: 25px;
+	background-color: wheat;
+}
