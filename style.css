@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'webfont';
+    font-display: swap;
+    src: url('webfont.eot'); /* IE9 */
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('webfont.woff2') format('woff2'),
+    url('webfont.woff') format('woff'), /* chrome、firefox */
+    url('webfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('webfont.svg#webfont') format('svg'); /* iOS 4.1- */
+}
+
+.web-font {
+    font-family: "webfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.ttf?t=1640690129658') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	position: fixed;
+	text-align: center;
+	margin: 0;
+	padding-left: 500px;
+	vertical-align: middle;
+	background-color: yellowgreen;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	align: center;
+}
+
+table {
+	border: 10;
+	cellspacing: 30;
+	table-layout: fixed;
+	align: center;
+	padding: 20px;
+	width: 850px;
+	font-size: 25px;
+	background-color: wheat;
+}
